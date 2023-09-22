@@ -105,6 +105,9 @@
 .app-icon {
   margin-right: 5px;
 }
+.menu-icon {
+  display: none;
+}
 
 /* tablet device style */
 
@@ -134,10 +137,6 @@
     width: 80px;
     font-size: 10px;
   }
-}
-
-.menu-bar {
-  display: none;
 }
 
 /* larger tablet devices */
@@ -209,7 +208,10 @@
     font-size: 10px;
     font-family: "Roboto";
   }
-  .menu-bar {
+  .menu-icon {
     display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
   }
 }

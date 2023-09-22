@@ -113,6 +113,9 @@
   height: 500px;
   object-fit: cover;
 }
+.professional-img-mobile {
+  display: none;
+}
 .professional-img-tab {
   display: none;
 }
